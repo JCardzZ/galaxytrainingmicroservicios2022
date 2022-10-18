@@ -1,0 +1,57 @@
+Entidad: Customer
+Propiedades:
+- id
+- firstname
+- lastname
+- dni
+- email
+- phoneNumber
+- state
+- createAt
+- updateUp
+
+Entidad: Account
+Propiedades:
+- id
+- numaccount
+- type
+- customerId
+- limitTransaction
+- commissionAmount
+- createAt
+- updateAt
+- availableBalance
+
+Entidad: Credit
+Propiedades:
+- id
+- customerId
+- typeCredit
+- creditAmount
+- creditUsed
+- createAt
+- updateAd
+
+Entidad: Trasaction
+Propiedades:
+- id
+- type
+- sourceAccount
+- targetAccount
+- amount
+- date
+- dni
+
+Entidad: waller (monedero)
+- id
+- numDocument
+- cell
+- imei
+- email
+- accountId
+- amountAvailable
+
+
+
+
+
