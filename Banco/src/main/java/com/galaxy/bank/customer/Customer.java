@@ -19,17 +19,30 @@ import lombok.NoArgsConstructor;
 @Entity
 @Table(name="cliente")
 public class Customer {
+	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	
-	@Column(name="nombre")
-	private String name;
+	@Column(name="nombres")
+	private String firstname;
 	
 	@Column(name="apellidos")
 	private String lastname;
 	
+	private String dni;
+	
+	private String email;
+
+	@Column(name="phonenumber")
+	private String phoneNumber;
+	
+	private boolean state;
+	
 	@Column(name="createat")
 	private LocalDate createAt;
+	
+	@Column(name="updateup")
+	private LocalDate updateUp;
 
 }

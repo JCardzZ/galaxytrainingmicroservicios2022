@@ -9,7 +9,7 @@ public interface ICustomerService {
 	public Customer save(Customer customer);
 	public Customer update(Customer customer);
 	public void delete(Customer customer);
-	public List<Customer> findByName(String name);
+	public List<Customer> findByFirstname(String firstname);
 	public List<Customer> findByLastname(String lastname);
 	
 }
