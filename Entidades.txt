@@ -18,9 +18,10 @@ Propiedades:
 - customerId
 - limitTransaction
 - commissionAmount
+- availableBalance
 - createAt
 - updateAt
-- availableBalance
+
 
 Entidad: Credit
 Propiedades:
