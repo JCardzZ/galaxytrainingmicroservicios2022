@@ -10,10 +10,13 @@ public class AccountService {
 
 	@Autowired
 	private AccountRepository repository;
-	
-	public List<Account> findAll(){
+
+	public List<Account> findAll() {
 		return repository.findAll();
-		
+
 	}
-	
+
+	public Account save(Account account) {
+		return repository.save(account);
+	}
 }
